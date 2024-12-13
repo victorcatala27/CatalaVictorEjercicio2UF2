@@ -13,13 +13,19 @@ public class Event {
 
 
     //Constructor del objeto Event
-    public Event(String title, LocalDate date, ArrayList<EventTask> task, Priority priorityr) {
+    public Event(String title, LocalDate date, Priority priority) {
         this.title = title;
         this.date = date;
-        this.task = task;
-        this.priority=priority;
+        this.task = new ArrayList<>();
+        this.priority= this.priority;
 
     }
+
+    public void addTask (EventTask task){
+        tasks.add(task);
+    }
+
+
 
     @Override
     public String toString() {

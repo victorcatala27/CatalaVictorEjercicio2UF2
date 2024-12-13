@@ -1,3 +1,3 @@
 package com.company;
 
-public enum priority {HIGH, MEDIUM, LOW}
+public  enum priority {HIGH, MEDIUM, LOW};
