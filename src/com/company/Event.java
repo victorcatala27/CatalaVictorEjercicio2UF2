@@ -22,10 +22,18 @@ public class Event {
         this.task = new ArrayList<>();
     }
 
+    /**
+     * Añade una tarea a la lista de tareas del evento.
+     * @param task Tarea que se desea añadir.
+     */
     public void addTask (EventTask task){
         this.task.add(task);
     }
-//Metodo getter para saber las tareas completadas. Lo recorremos con un bucle para analizar posicion por posicion
+
+    /**
+     * Calcula el número de tareas completadas dentro del evento.
+     * @return Número de tareas completadas.
+     */
     public int getTareasCompletadas(){
         int completadas = 0;
         for (EventTask task : task) {
@@ -36,7 +44,10 @@ public class Event {
         return completadas;
     }
 
-//Métodos getter para el título, array de eventos y las prioridades  y fechas de los mismos
+    /**
+     * Obtiene la lista de tareas asociadas al evento.
+     * @return Lista de tareas.
+     */
     public ArrayList<EventTask> getTask() {
         return task;
     }
@@ -48,12 +59,19 @@ public class Event {
     public LocalDate getDate() {
         return date;
     }
-
+    /**
+     * Obtiene la prioridad del evento.
+     * @return La prioridad del evento.
+     */
     public Priority getPriority() {
         return priority;
     }
 
-    //Método toString
+    /**
+     * Devuelve una representación en cadena del evento, mostrando su título, fecha,
+     * prioridad y el progreso de las tareas completadas.
+     * @return Cadena que describe el evento.
+     */
     @Override
     public String toString() {
         return "Event{" +

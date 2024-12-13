@@ -4,7 +4,7 @@ public class EventTask {
     private String text;
     private boolean isCompleted;
 
-    //constructor
+    //Constructor para crear una nueva tarea
     public EventTask (String text){
         this.text=text;
         this.isCompleted= false;
@@ -15,27 +15,40 @@ public class EventTask {
         this.isCompleted=true;
     }
 
-    //Metodo para desmarcar la tarea
+    //Desmarca la tarea, indicando que no está completada.
     public void  desmarcarCompleta(){
         this.isCompleted=false;
     }
 
-    //Método para marcar si está completa una tarea
+    /**
+     * Verifica si la tarea está completada.
+     * @return true si la tarea está completada, false en caso contrario.
+     */
     public boolean isCompleted(){
         return this.isCompleted;
     }
 
-    //Metodo getter y setter para el texto
+    /**
+     * Obtiene la descripción de la tarea.
+     * @return El texto que describe la tarea.
+     */
     public String getText(){
         return text;
     }
 
+    /**
+     * Establece una nueva descripción para la tarea.
+     * @param text Nueva descripción de la tarea.
+     */
     public void setText(String text){
         this.text=text;
     }
 
 
-    //Método toString para printar los detalles
+    /**
+     * Devuelve una representación en cadena de la tarea, mostrando su descripción y estado.
+     * @return Cadena que describe la tarea.
+     */
     @Override
     public String toString() {
         return "Task { " +

@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú">
+    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EventTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EventTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,34 +29,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "victorcatala27"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;victorcatala27&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/victorcatala27/CatalaVictorEjercicio2UF2.git",
-    "accountId": "5777874a-75f9-462a-b6e1-cf25831f8273"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/victorcatala27/CatalaVictorEjercicio2UF2.git&quot;,
+    &quot;accountId&quot;: &quot;5777874a-75f9-462a-b6e1-cf25831f8273&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2qADXtiHIo75yQZidxrQI39Adym" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
@@ -88,7 +97,47 @@
       <option name="project" value="LOCAL" />
       <updated>1734108229621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se arreglan errores propios de las Clases que impedian acceder a las mismas correctamente desde el Main">
+      <option name="closed" value="true" />
+      <created>1734116897029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734116897029</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se integra correctamente la funcionalidad del método agregar Evento">
+      <option name="closed" value="true" />
+      <created>1734117714415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117714415</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se integra el metodo encargado de Borrar eventos">
+      <option name="closed" value="true" />
+      <created>1734118474763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734118474763</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se crea el método ver Eventos que mostrara la lista de los mismos. Hacemos llamada al método toString implicitamente tras recorrer la lista de eventos">
+      <option name="closed" value="true" />
+      <created>1734118793463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734118793463</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas">
+      <option name="closed" value="true" />
+      <created>1734120301674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734120301674</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +155,11 @@
     <MESSAGE value="Creación de las clases Event y EventTask" />
     <MESSAGE value="Creación del menú de opciones. Se crea bucle para poder ejecutar las opciones del menú" />
     <MESSAGE value="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú" />
+    <MESSAGE value="Se arreglan errores propios de las Clases que impedian acceder a las mismas correctamente desde el Main" />
+    <MESSAGE value="Se integra correctamente la funcionalidad del método agregar Evento" />
+    <MESSAGE value="Se integra el metodo encargado de Borrar eventos" />
+    <MESSAGE value="Se crea el método ver Eventos que mostrara la lista de los mismos. Hacemos llamada al método toString implicitamente tras recorrer la lista de eventos" />
+    <MESSAGE value="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas" />
   </component>
 </project>
