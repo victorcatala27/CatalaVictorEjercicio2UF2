@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/EventTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EventTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Se añaden comentarios descriptivos y se solucionan errores de compilacion que permiten ejecutar el programa con normalidad" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734120301674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Se añaden comentarios descriptivos y se solucionan errores de compilacion que permiten ejecutar el programa con normalidad">
+      <option name="closed" value="true" />
+      <created>1734124451201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734124451201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +163,7 @@
     <MESSAGE value="Se integra el metodo encargado de Borrar eventos" />
     <MESSAGE value="Se crea el método ver Eventos que mostrara la lista de los mismos. Hacemos llamada al método toString implicitamente tras recorrer la lista de eventos" />
     <MESSAGE value="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crea el método gestionar Tareas y se introducen dos bucles para ver si hay un evento con el título especificado y si tiene tareas asociadas" />
+    <MESSAGE value="Se añaden comentarios descriptivos y se solucionan errores de compilacion que permiten ejecutar el programa con normalidad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se añaden comentarios descriptivos y se solucionan errores de compilacion que permiten ejecutar el programa con normalidad" />
   </component>
 </project>
