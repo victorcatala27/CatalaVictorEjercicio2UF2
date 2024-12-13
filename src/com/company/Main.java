@@ -1,5 +1,6 @@
 package com.company;
 
+import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -120,15 +121,19 @@ public class Main {
                 System.out.println("El evento"+ titleToDelete+ "ha sido eliminado correctamente");
                 break;
             }
-
-
+        }
+        if (!eventoEncontrado){
+            System.out.println("No se ha encontrado ningun evento con el título"+ titleToDelete+);
+        }
     }
     public void verEventos(){
-        if (eventos.isEmpty()){
+        if (events.isEmpty()){
             System.out.println("No hay eventos almacenados");
-            String titulo=scanner.nextLine()
-
         }else{
+            System.out.println("Lista de eventos");
+            for (Event event: events){
+                System.out.println(event);
+            }
 
         }
 
