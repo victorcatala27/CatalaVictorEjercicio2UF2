@@ -102,7 +102,24 @@ public class Main {
     }
 
 
-    public void borrarEvento(){
+    public void borrarEvento(Scanner scanner){
+        if (events.isEmpty()){
+            System.out.println("No hay eventos guardados");
+            return;
+        }
+
+        System.out.println("Introduce el título del evento que deseas borrar:");
+        String titleToDelete= scanner.nextLine();
+
+        boolean eventoEncontrado=false;
+
+        for (int i = 0; i < ; i++) {
+            if (events.get(i).getTitle().equalsIgnoreCase(titleToDelete)) {
+                events.remove(i);
+                eventoEncontrado=true;
+                System.out.println("El evento"+ titleToDelete+ "ha sido eliminado correctamente");
+                break;
+            }
 
 
     }
