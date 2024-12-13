@@ -134,15 +134,39 @@ public class Main {
             for (Event event: events){
                 System.out.println(event);
             }
+        }
+    }
 
+    public void gestionarTarea(Scanner scanner) {
+        if (events.isEmpty()) { // Verificar si hay eventos almacenados
+            System.out.println("No hay eventos almacenados.");
+            return;
+        }
+
+        System.out.println("Introduce el título del evento para gestionar tareas:");
+        String eventTitle = scanner.nextLine();
+
+        // Buscar el evento por título
+        Event selectedEvent = null;
+        for (Event event : events) {
+            if (event.getTitle().equalsIgnoreCase(eventTitle)) {
+                selectedEvent = event;
+                break;
+            }
+        }
+
+        if (selectedEvent == null) { // Si no se encuentra el evento
+            System.out.println("No se encontró un evento con ese título.");
+            return;
+        }
+        // Listar las tareas del evento seleccionado
+        ArrayList<EventTask> tasks = selectedEvent.getTasks();
+        if (tasks.isEmpty()) { // Verificar si el evento tiene tareas
+            System.out.println("El evento no tiene tareas asociadas.");
+            return;
         }
 
 
-
     }
 
-
-    public void gestionarTarea(){
-
-    }
 }
