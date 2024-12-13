@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Creación de las clases Event y EventTask" />
+    <list default="true" id="bb049bcf-2f6c-45c4-bcb4-1478df381cbd" name="Changes" comment="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +50,11 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +72,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734099839503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creación del menú de opciones. Se crea bucle para poder ejecutar las opciones del menú">
+      <option name="closed" value="true" />
+      <created>1734105744919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734105744919</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú">
+      <option name="closed" value="true" />
+      <created>1734108229621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734108229621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación de las clases Event y EventTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de las clases Event y EventTask" />
+    <MESSAGE value="Creación del menú de opciones. Se crea bucle para poder ejecutar las opciones del menú" />
+    <MESSAGE value="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se generan métodos para poder llevar a cabo las funciones asignadas a cada número del menú" />
   </component>
 </project>
